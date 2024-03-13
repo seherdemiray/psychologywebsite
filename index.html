@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Psychology</title>
-    <link href="src/output.css" rel="stylesheet" />
+    <link href="/src/output.css" rel="stylesheet" />
   </head>
 
   <body class="bg-gradient-to-r from-indigo-200 via-purple-200 to-orange-100">
     <nav class="justify-between px-12 mx-auto">
       <div class="flex justify-between items-center py-5">
         <div class="flex items-center gap-x-16">
-          <img class="max-h-[80px]" src="src/public/logo2/3.png" alt="" />
+          <img class="max-h-[80px]" src="/src/public/logo2/3.png" alt="" />
 
           <ul class="flex gap-x-12 [&>*]:text-black">
             <li><a href="" class="font-bold">HOME</a></li>
@@ -24,9 +24,40 @@
         </div>
 
         <div>
-          <input type="text" placeholder="Ara..." class="h-12 w-64 rounded-2xl pl-4 backdrop-blur-2xl bg-indigo-400/20 text-black">
+          <input
+            type="text"
+            placeholder="Ara..."
+            class="h-12 w-64 rounded-2xl pl-4 backdrop-blur-2xl bg-indigo-400/20 text-black"
+          />
         </div>
       </div>
     </nav>
+
+    <section class="container mx-auto px-12">
+      <div class="flex mt-20">
+        <div class="w-1/2 grid">
+          <h1 class="text-7xl leading-relaxed">
+            Modern Life <span class="font-bold">Coach School Podcast </span>
+          </h1>
+          <p class="text-2xl py-5">
+            Sed ut perspiciatis unde omnis iste natus error voluptatem accan
+            tium doloremque laudantium totam rem aperiam
+          </p>
+        </div>
+      </div>
+
+      <div class="flex mt-8 gap-x-12">
+        <button class="font-bold rounded-full px-16 py-2 bg-emerald-100">
+          GET COACH
+        </button>
+        <button class="font-bold rounded-full px-16 py-2 bg-emerald-100">
+          OK
+        </button>
+      </div>
+    </section>
+
+    <div class="container mx-auto w-1/2 flex">
+      <img class="max-h-500" src="/src/public/artist-pic.png" alt="" />
+    </div>
   </body>
 </html>
